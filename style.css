@@ -1,3 +1,83 @@
-h1, h2 {
-  font-family: Lato;
+table {
+    border: 5px solid rgb(15, 134, 189);
+    table-layout: fixed;
+    width: 400px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th:first-child {
+    font-size: medium;
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 10px;
+    opacity: 0.7;
+    background-color: rgba(254, 251, 251, 0.24);
+}
+
+th:nth-child(even) {
+    font-size: medium;
+    background-color: lightgray;
+    opacity:0.5;
+}
+tr {
+    border-top: 1pt solid rgba(128, 128, 128, 0.5);
+}
+
+span:before {
+    content: "$";
+}
+
+.leftCol {
+    text-align: center left;
+    font: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    color: rgb(15, 134, 189);
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 10px;
+}
+
+.rightCol {
+    text-align: right;
+    padding-right: 10px;
+    font: bold;
+    font-size:larger;
+}
+.rightColHeader1 {
+    text-align: right;
+    padding-right: 10px;
+    font-size: 17px;
+}
+.rightColHeader2 {
+    text-align: right;
+    padding-right: 10px;
+    font-size: medium;
+    opacity:0.7;
+}
+.rightColBottom1 {
+    text-align: right;
+    padding-right: 10px;
+    font: bold;
+    font-size: small;
+    color:red
+}
+.rightColBottom2 {
+    text-align: right;
+    padding-right: 10px;
+    font: bold;
+    font-size: small;
+    color: green;
+}
+.bottomRow {
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(15, 134, 189);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
